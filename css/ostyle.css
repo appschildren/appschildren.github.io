@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-} 
+}
+a {
+    text-decoration: none;
+}
 
 .clearfix::after{
     content: "";
@@ -350,6 +353,10 @@ small{
     .container{
         width: 100%;
         height: auto;
+    }
+
+    .container{
+        text-decoration-line: none;
     }
 
 
